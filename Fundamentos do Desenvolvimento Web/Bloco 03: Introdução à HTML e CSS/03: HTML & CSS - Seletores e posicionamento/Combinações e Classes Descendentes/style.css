@@ -1,0 +1,31 @@
+ol {
+    background-color: yellow;
+}
+.impar {
+    text-transform: uppercase;
+}
+.par {
+    color: green;
+}
+h1, h2, h3 {
+    color: red;
+}
+h1 em, h2 em, h3 em {
+    width: 40px;
+    border: 1px solid black;
+}
+li {
+    font-size: 20px;
+}
+li em {
+    font-weight: bold;
+}
+.primeiros3 {
+    color:rgb(0, 89, 255);
+}
+.java {
+    background-color: pink;
+}
+#listaAliados:hover {
+    font-weight: bold;
+}
