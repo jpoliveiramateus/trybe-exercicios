@@ -26,6 +26,23 @@ li em {
 .java {
     background-color: pink;
 }
-#listaAliados:hover {
+.aliado1:hover {
     font-weight: bold;
+    color: orange;
+}
+.aliado2:hover {
+    font-weight: bold;
+    color: greenyellow;
+}
+.aliado3:hover {
+    font-weight: bold;
+    color: black;
+}
+.aliado4:hover {
+    font-weight: bold;
+    color: yellow;
+}
+.aliado5:hover {
+    font-weight: bold;
+    color: green;
 }
