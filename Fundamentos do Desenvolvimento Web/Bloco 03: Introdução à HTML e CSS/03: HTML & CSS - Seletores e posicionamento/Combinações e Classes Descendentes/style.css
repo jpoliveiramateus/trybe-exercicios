@@ -1,0 +1,48 @@
+ol {
+    background-color: yellow;
+}
+.impar {
+    text-transform: uppercase;
+}
+.par {
+    color: green;
+}
+h1, h2, h3 {
+    color: red;
+}
+h1 em, h2 em, h3 em {
+    width: 40px;
+    border: 1px solid black;
+}
+li {
+    font-size: 20px;
+}
+li em {
+    font-weight: bold;
+}
+.primeiros3 {
+    color:rgb(0, 89, 255);
+}
+.java {
+    background-color: pink;
+}
+.aliado1:hover {
+    font-weight: bold;
+    color: orange;
+}
+.aliado2:hover {
+    font-weight: bold;
+    color: greenyellow;
+}
+.aliado3:hover {
+    font-weight: bold;
+    color: black;
+}
+.aliado4:hover {
+    font-weight: bold;
+    color: yellow;
+}
+.aliado5:hover {
+    font-weight: bold;
+    color: green;
+}

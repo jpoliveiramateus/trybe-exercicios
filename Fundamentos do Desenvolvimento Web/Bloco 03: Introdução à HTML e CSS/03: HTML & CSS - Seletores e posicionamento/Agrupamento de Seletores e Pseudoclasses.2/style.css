@@ -1,0 +1,12 @@
+h3 {
+    font-style: italic;
+}
+#div3 {
+    font-size: large;
+}
+div:hover {
+    text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
+    border: 1px solid black;
+}
+
+/* Referência usada para criar a borda no texto http://pwdesignecriacoes.com.br/css-borda-e-texto/ */
