@@ -1,5 +1,5 @@
-console.log('Resultado dos elementos do array, dividido por 2:')
+let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25];
 
-for (let numeros = 1; numeros <= 25; numeros += 1){
-    console.log(numeros / 2);
+for (let index = 0; index < array.length; index += 1){
+    console.log(array[index] / 2);
 }
