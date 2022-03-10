@@ -1,11 +1,11 @@
-const num1 = 5;
-const num2 = 7;
-const num3 = 9;
-
-if (num1 > num2 && num1 > num3){
-    console.log(num1);
-} else if (num2 > num1 && num2 > num3){
-    console.log(num2);
-} else {
-    console.log(num3);
+function maiorDeTresNumeros(num1, num2, num3) {
+    if (num1 > num2 && num1 > num3) {
+        return num1;
+    } else if (num2 > num1 && num2 > num3) {
+        return num2;
+    } else {
+        return num3;
+    }
 }
+
+console.log(maiorDeTresNumeros(12, 8, 9));

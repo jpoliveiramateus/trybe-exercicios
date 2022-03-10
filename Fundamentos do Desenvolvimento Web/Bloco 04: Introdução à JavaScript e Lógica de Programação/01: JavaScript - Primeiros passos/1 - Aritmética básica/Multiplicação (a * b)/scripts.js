@@ -1,4 +1,5 @@
-const a = 7;
-const b = 3;
+function multiplicacao(num1, num2){
+    return num1 * num2;
+}
 
-console.log(a * b);
+console.log(multiplicacao(2, 9));

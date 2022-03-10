@@ -1,9 +1,11 @@
-const num = -2;
-
-if (num >= 0){
-    console.log("positive");
-} else if (num < 0) {
-    console.log("negative");
-} else {
-    console.log("zero");
+function positivoNegativo(num) {
+    if (num >= 0) {
+        return "positive";
+    } else if (num < 0) {
+        return "negative";
+    } else {
+        return "zero";
+    }
 }
+
+console.log(positivoNegativo(-2));
