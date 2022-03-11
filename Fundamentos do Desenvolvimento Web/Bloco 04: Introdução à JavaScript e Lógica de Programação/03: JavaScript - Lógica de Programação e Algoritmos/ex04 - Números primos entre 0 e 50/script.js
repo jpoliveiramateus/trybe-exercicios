@@ -1,12 +1,14 @@
-for (let i = 0; i <= 50; i += 1) {
-    
+let n = 8;
+let count = 0;
+
+for (let i = 0; i <= n; i += 1){
+    if(n % i === 0){
+        count += 1;
+    }
 }
 
-
-let a = 5;
-let b = 2;
-console.log(a);
-a += b;
-console.log(a);
-b -= a;
-console.log(b);
+if(count == 2){
+    console.log('número primo');
+} else {
+    console.log('não é primo');
+}
