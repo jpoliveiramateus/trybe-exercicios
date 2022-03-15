@@ -1,47 +1,35 @@
-n = 7;
+let n = 5;
 /*
-for (let i = n; n >= 1; n -= 1) {
-    let asterisco = '*';
-    console.log(asterisco.repeat(i));
+for (let i = 1; i <= n; i += 1) {
+    console.log('*'.repeat(n));
 }
 
-let count = 1;
-for (let i = n; n >= 1; n -= 1) {
-    let asterisco = '*';
-    console.log(asterisco.repeat(count));
-    count += 1;
+for (let i = 1; i <= n; i += 1) {
+    console.log('*'.repeat(i));
 }
 
-let count = 1;
-for (let i = n; n >= 1; n -= 1) {
-    let asterisco = '*';
-    let espaco = ' ';
-    console.log(espaco.repeat(i - count) + asterisco.repeat(count));
-    count += 1;
-}
-
-let count = 3;
-let countTwo = 1;
-for (let i = n; n >= 1; n -= 1) {
-    let asterisco = '*';
-    let espaco = ' ';
-    if (count >= 0 && countTwo <= i) {
-        console.log(espaco.repeat(count) + asterisco.repeat(countTwo));
-    }
-    count -= 1;
-    countTwo += 2;
+let contador = n - 1;
+for (let i = 1; i <= n; i += 1) {
+    console.log(' '.repeat(contador) + '*'.repeat(i));
+    contador -= 1;
 }
 */
-let count = 3;
-let countTwo = 0;
-let som = 0;
-for (let i = n; n >= 1; n -= 1) {
-    let asterisco = '*';
-    let espaco = ' ';
-    if (count >= 0 && countTwo <= i) {
-        console.log(espaco.repeat(count) + asterisco.repeat(1) + espaco.repeat(countTwo) + asterisco.repeat(countTwo));
+let inputLine = '';
+
+let midOfMatrix = (n + 1) / 2;
+let right = midOfMatrix;
+let left = midOfMatrix;
+
+for (let i = 0; i <= midOfMatrix; i += 1) {
+    for (let columnIndex = 0; columnIndex <= n; columnIndex += 1) {
+        if (columnIndex > left && columnIndex < right) {
+          inputLine = inputLine + '*';
+        } else {
+          inputLine = inputLine + ' ';
+        }
     }
-    count -= 1;
-    countTwo += 1 + som;
-    som += 1;
-}
+    console.log(inputLine);
+    inputLine = '';
+    right += 1;
+    left -= 1;
+};
