@@ -38,10 +38,16 @@ firstLi.addEventListener('click', addClassFirst);
 // 3. Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
 // com a classe 'tech';
 
-function addClassTech() {
-  input.className = 'tech';
+function addText() {
+  if (firstLi.className === 'tech') {
+    firstLi.innerText = input.value;
+  } else if (secondLi.className === 'tech') {
+    secondLi.innerText = input.value;
+  } else {
+    thirdLi.innerText = input.value;
+  }
 }
-input.addEventListener('keyup', addClassTech);
+input.addEventListener('keyup', addText);
 
 // 4. Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
 // redirecione para alguma página;
