@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+}
+
+#titulo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.paragrafo {
+    margin: 20px;
+}
+
+#rodape {
+    text-align: center;
+    margin-top: 30px;
+}
+
+:placeholder-shown{
+    text-align: center;
+}
+
+input{
+    display: inline-block;
+    padding: 4px;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+#botao {
+    padding: 2px;
+    width: 150px;
+}
