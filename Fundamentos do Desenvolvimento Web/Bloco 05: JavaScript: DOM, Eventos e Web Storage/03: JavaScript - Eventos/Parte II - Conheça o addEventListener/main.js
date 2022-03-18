@@ -14,26 +14,14 @@ const myWebpage = document.getElementById('my-spotrybefy');
 
 let linha = document.querySelectorAll('li');
 
-function addClassSecond() {
-  linha[1].className = 'tech';
-  linha[0].removeAttribute('class','tech');
-  linha[2].removeAttribute('class','tech');
+function addClass(event) {
+  let techElement = document.querySelector('.tech');
+  techElement.classList.remove('tech');
+  event.target.classList.add('tech');
 }
-secondLi.addEventListener('click', addClassSecond);
-
-function addClassThird() {
-  linha[2].className = 'tech';
-  linha[0].removeAttribute('class','tech');
-  linha[1].removeAttribute('class','tech');
-}
-thirdLi.addEventListener('click', addClassThird);
-
-function addClassFirst() {
-  linha[0].className = 'tech';
-  linha[1].removeAttribute('class','tech');
-  linha[2].removeAttribute('class','tech');
-}
-firstLi.addEventListener('click', addClassFirst);
+secondLi.addEventListener('click', addClass);
+thirdLi.addEventListener('click', addClass);
+firstLi.addEventListener('click', addClass);
 
 // 3. Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
 // com a classe 'tech';
