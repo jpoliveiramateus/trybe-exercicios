@@ -125,20 +125,44 @@ legendaComCor('green');
 let divTask = document.querySelector('.task');
 function clicarDiv() {
     divTask.addEventListener('click', function() {
-        divTask.classList.add('selected');
-        divTask.addEventListener('click', function(){
-            divTask.classList.remove('selected'); 
-        })
+        if (divTask.className === 'task') {
+            divTask.classList.add('selected');
+        } else {
+            divTask.className = 'task';
+        }
     })
 }
 clicarDiv();
 
-function corNoDia() {
-    let dias = document.querySelectorAll('li.day');
-    for(let i = 0; i < dias.length; i += 1) {
-        dias[i].addEventListener('click', function() {
-            dias[i].style.color = 'green';
+function clicarDia() {
+    let listaDias = document.querySelectorAll('.day');
+    for (let i = 0; i < listaDias.length; i += 1) {
+        listaDias[i].addEventListener('click', function(){
+            listaDias[i].style.color = 'green';
+            listaDias[i].addEventListener('click', function(){
+                listaDias[i].style.color = 'rgb(119,119,119)';
+            })
         })
     }
 }
-corNoDia();
+clicarDia();
+
+let botaoAdd = document.getElementById('btn-add');
+let input = document.getElementById('task-input');
+function adicionarElemento() {
+    let lista = document.querySelector('.task-list');
+    let itemLista = document.createElement('li');
+    let valor = input.value;
+    itemLista.innerHTML = valor;
+    lista.appendChild(itemLista);
+    if (valor === '') {
+        window.alert('[ERRO] Escreva seu compromisso!');
+    }
+    input.value='';
+}
+botaoAdd.addEventListener('click', adicionarElemento);
+input.addEventListener("keypress", function(e){
+    if (e.key === 'Enter') {
+        adicionarElemento();
+    }
+});
