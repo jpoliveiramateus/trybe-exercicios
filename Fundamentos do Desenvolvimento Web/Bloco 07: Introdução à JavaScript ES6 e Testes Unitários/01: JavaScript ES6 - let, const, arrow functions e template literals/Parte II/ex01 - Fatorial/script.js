@@ -5,6 +5,5 @@ const fatorial = (number) => {
   }
   return fatorial;
 }
-const number = 5; // Número de entrada.
 
-number >= 0 ? console.log(fatorial(number)) : console.log(`Número negativo!`);
+console.log(fatorial(5));
