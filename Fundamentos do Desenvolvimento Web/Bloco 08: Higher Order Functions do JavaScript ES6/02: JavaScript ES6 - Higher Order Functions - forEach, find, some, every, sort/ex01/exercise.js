@@ -111,15 +111,19 @@ function someBookWasReleaseOnThe80s() {
 }
 // console.log(someBookWasReleaseOnThe80s());
 
-// function authorUnique() {
-//   // escreva seu código aqui
-//   books.forEach((value, index) => {
-//     if (index + 1 < books.length - 1) {
-//       if (value.author.birthYear === books[index + 1].author.birthYear) {
-//         return true;
-//       }
-//       return false;
-//     }
-//   });
-// }
+let result = false;
+
+function authorUnique() {
+  // escreva seu código aqui
+  books.forEach((value, index) => {
+    const nextValue = books[index + 1];
+    if (nextValue === undefined) {
+      return;
+    }
+    if (value.author.birthYear === nextValue.author.birthYear) {
+      result = true;
+    }
+  });
+  return result;
+}
 // console.log(authorUnique());
