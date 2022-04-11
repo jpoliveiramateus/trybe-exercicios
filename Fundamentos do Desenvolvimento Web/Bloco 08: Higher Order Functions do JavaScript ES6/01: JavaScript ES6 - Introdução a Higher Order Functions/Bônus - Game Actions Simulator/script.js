@@ -24,7 +24,6 @@ const damageDragon = () => dragon.damage = Math.floor(Math.random() * (dragon.st
 const damageWarrior = () => warrior.damage = Math.floor(Math.random() * (warrior.strength * warrior.weaponDmg - warrior.strength)) + warrior.strength;
 const damageAndManaMage = () => {
   // damage: Math.floor(Math.random() * (mage.intelligence * 2 - mage.intelligence)) + mage.intelligence,
-  mage.mana -= 5;
   if (mage.mana > 15) {
     return Math.floor(Math.random() * (mage.intelligence * 2 - mage.intelligence)) + mage.intelligence;
   } else {
@@ -43,6 +42,7 @@ const gameActions = {
   mage: (damageAndManaMage) => {
     if (damageAndManaMage() !== `Mana insuficiente`) {
       mage.damage = damageAndManaMage();
+      mage.mana -= 15;
       dragon.healthPoints -= damageAndManaMage();
     }
 
