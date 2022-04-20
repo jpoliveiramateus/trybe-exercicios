@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-image: url('https://4.bp.blogspot.com/-1hBZaDQV6lY/XD930XvmeRI/AAAAAAAAAuM/Mb0nonSZOFkk0umjU7mXMdMhroDjvTq0ACKgBGAs/w919/bitcoin-cryptocurrency-cube-abstract-4-4k.jpg');
+  background-size: cover;
+}
+
+div {
+  padding: 5px;
+  color: white;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  background: rgba( 255, 255, 255, 0.2 );
+  box-shadow: 0 8px 32px 0 rgba(37, 38, 51, 0.37);
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  padding: 5px;
+}
