@@ -80,7 +80,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 ##### Bloco 10: Introdução à React
 
 - [x] 10-1: _'Hello, world!' no React!_
-- [ ] 10-2: _Componentes React_
+- [x] 10-2: _Componentes React_
 - [ ] 10-3: _[Projeto - Sistema Solar]()_
 
 ##### Bloco 11: Componentes com Estado, Eventos e Formulários com React

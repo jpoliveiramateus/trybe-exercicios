@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+}
+
+.cardList {
+  text-align: center;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.486);
+  border-radius: 10px;
+  margin: 10px;
+  width: 300px;
+}
+
+.info {
+  width: 50%;
+}
+
+.imgpoke {
+  width: 50%;
+}
