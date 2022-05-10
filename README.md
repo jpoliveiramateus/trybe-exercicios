@@ -81,11 +81,11 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 - [x] 10-1: _'Hello, world!' no React!_
 - [x] 10-2: _Componentes React_
-- [ ] 10-3: _[Projeto - Sistema Solar]()_
+- [x] 10-3: _[Projeto - Sistema Solar]()_
 
 ##### Bloco 11: Componentes com Estado, Eventos e Formulários com React
 
-- [ ] 11-1: _Componentes com estado e eventos_
+- [x] 11-1: _Componentes com estado e eventos_
 - [ ] 11-2: _Formulários no React_
 - [ ] 11-3: _[Projeto - Tryunfo]()_
 
