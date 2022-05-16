@@ -91,7 +91,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 ##### Bloco 12: Ciclo de Vida de Componentes e React Router
 
-- [ ] 12-1: _Ciclo de vida de componentes_
+- [x] 12-1: _Ciclo de vida de componentes_
 - [ ] 12-2: _React Router_
 - [ ] 12-3: _[Projeto - TrybeTunes]()_
 
