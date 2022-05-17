@@ -10,13 +10,18 @@ class App extends React.Component {
     endereco: "",
     cidade: "",
     estado: "Acre",
-    tipo: "off",
+    tipo: "",
     clicado: true,
+    cargo: '',
+    descCargo: '',
+    resumo: '',
+    validation: false,
   };
 
   handleChange = ({ target }) => {
     const { name } = target;
-    const value = target.type === "checkbox" ? target.checked : target.value;
+    let value = target.type === "checkbox" ? target.checked : target.value;
+    if (target.type === "radio") value = target.parentNode.textContent;
     this.setState({
       [name]: value,
     });
@@ -44,13 +49,56 @@ class App extends React.Component {
     });
   }
 
-  validationEmail = (e) => {
+  validation = (e) => {
     e.preventDefault();
-    const regex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/img;
-    const { email } = this.state;
-    if(regex.test(email) === false) {
-      window.alert('Email inválido!')
+    const regexEmail = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/img;
+    const { cidade, cpf, email, endereco, estado, nome, cargo, descCargo, resumo, tipo } = this.state;
+    if (cidade && cpf && email && endereco && estado && nome && cargo && descCargo && resumo && tipo ) {
+      if (regexEmail.test(email) === true) {
+        this.setState({
+          validation: true,
+        })
+      } else {
+        window.alert('Email inválido!');
+      }
+    } else {
+      window.alert('Preencha todos os dados!');
     }
+  }
+
+  result = () => {
+    const { cidade, cpf, email, endereco, estado, nome, cargo, descCargo, resumo, tipo } = this.state;
+    return (
+      <div className="result">
+        <p>{nome}</p>
+        <p>{email}</p>
+        <p>{cpf}</p>
+        <span>{cidade}</span>
+        <span>{endereco.replace(/[^\w\s]/gi, '')}</span>
+        <span>{tipo}</span>
+        <p>{estado}</p>
+        <p>{resumo}</p>
+        <p>{cargo}</p>
+        <p>{descCargo}</p>
+      </div>
+    )
+  }
+  
+  cleanForm = () => {
+    this.setState({
+      nome: "",
+      email: "",
+      cpf: "",
+      endereco: "",
+      cidade: "",
+      estado: "Acre",
+      tipo: "off",
+      clicado: true,
+      cargo: '',
+      descCargo: '',
+      resumo: '',
+      validation: false,
+    });
   }
 
   render() {
@@ -157,18 +205,19 @@ class App extends React.Component {
             </div>
           </fieldset>
           <fieldset className="second">
-            <textarea placeholder="Resumo do currículo" maxLength={1000} required></textarea>
+            <textarea placeholder="Resumo do currículo" value={this.state.resumo} name="resumo" maxLength={1000} onChange={ this.handleChange } required></textarea>
 
-            <textarea placeholder="Cargo" maxLength={40} onMouseEnter={this.removeEvent} required></textarea>
+            <textarea placeholder="Cargo" maxLength={40} name="cargo" value={this.state.cargo} onMouseEnter={this.removeEvent} onChange={ this.handleChange } required></textarea>
 
-            <textarea placeholder="Descrição do cargo" maxLength={500} required></textarea>
+            <textarea placeholder="Descrição do cargo" name="descCargo" maxLength={500} value={this.state.descCargo} onChange={ this.handleChange } required></textarea>
           </fieldset>
 
-          <button style={{ backgroundColor: "green", margin: 5 }} onClick={this.validationEmail} type="submit">
+          <button style={{ backgroundColor: "green", margin: 5 }} onClick={this.validation} type="submit">
             Enviar
           </button>
-          <button type="reset">Limpar</button>
+          <button type="reset" onClick={ this.cleanForm } >Limpar</button>
         </form>
+        {this.state.validation && this.result()}
       </div>
     );
   }

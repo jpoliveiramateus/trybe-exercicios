@@ -3,7 +3,7 @@
 }
 
 form {
-  margin: 40px;
+  margin: 10px;
 }
 
 .first {
@@ -47,4 +47,14 @@ select {
 div {
   display: flex;
   margin: 0 auto;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border: 2px solid black;
+  height: 480px;
+  margin: 80px;
+  padding: 15px;
 }
