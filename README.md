@@ -103,7 +103,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 ##### Bloco 14: Testes automatizados com React Testing Library
 
 - [x] 14-1: _RTL - Primeiros passos_
-- [ ] 14-2: _RTL - Mocks e Inputs_
+- [x] 14-2: _RTL - Mocks e Inputs_
 - [ ] 14-3: _RTL - Testando React Router_
 - [ ] 14-4: _[Projeto - Testes em React]()_
 
