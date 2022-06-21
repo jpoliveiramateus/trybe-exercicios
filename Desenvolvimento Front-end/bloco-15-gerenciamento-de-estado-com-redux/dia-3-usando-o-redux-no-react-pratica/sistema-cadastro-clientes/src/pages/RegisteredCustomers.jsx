@@ -3,12 +3,13 @@ import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes, { objectOf, string } from 'prop-types';
 import { Link } from 'react-router-dom';
-import { orderName, removeClient } from '../redux/actions';
+import { notOrderName, orderName, removeClient } from '../redux/actions';
 
 class RegisteredCustomers extends React.PureComponent {
   // eslint-disable-next-line react/state-in-constructor
   state = {
     loading: false,
+    order: false,
   };
 
   client = ({ target }) => {
@@ -19,9 +20,11 @@ class RegisteredCustomers extends React.PureComponent {
   };
 
   render() {
-    const { login, registered, orderNameArray } = this.props;
+    const {
+      login, registered, orderNameArray, notOrder,
+    } = this.props;
     const { client } = this;
-    const { loading } = this.state;
+    const { loading, order } = this.state;
     if (loading) {
       return (<p>Carregando..</p>);
     }
@@ -34,13 +37,25 @@ class RegisteredCustomers extends React.PureComponent {
             <button
               type="button"
               onClick={async () => {
-                this.setState({
-                  loading: true,
-                });
-                await orderNameArray();
-                this.setState({
-                  loading: false,
-                });
+                if (order) {
+                  this.setState({
+                    loading: true,
+                  });
+                  await notOrder();
+                  this.setState({
+                    loading: false,
+                    order: !order,
+                  });
+                } else {
+                  this.setState({
+                    loading: true,
+                  });
+                  await orderNameArray();
+                  this.setState({
+                    loading: false,
+                    order: !order,
+                  });
+                }
               }}
             >
               Ordenar
@@ -87,6 +102,7 @@ const mapStateToProps = (state) => ({
 const mapDispatchToProps = (dispatch) => ({
   remove: (state) => dispatch(removeClient(state)),
   orderNameArray: (state) => dispatch(orderName(state)),
+  notOrder: (state) => dispatch(notOrderName(state)),
 });
 
 RegisteredCustomers.propTypes = {

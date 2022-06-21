@@ -27,6 +27,6 @@ export const orderName = () => ({
 
 export const NOT_ORDER = 'NOT_ORDER';
 
-export const notOrder = () => ({
+export const notOrderName = () => ({
   type: NOT_ORDER,
 });

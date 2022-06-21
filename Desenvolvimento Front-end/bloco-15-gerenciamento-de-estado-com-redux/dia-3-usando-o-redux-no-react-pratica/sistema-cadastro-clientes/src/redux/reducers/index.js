@@ -2,7 +2,7 @@
 /* eslint-disable default-param-last */
 import { combineReducers } from 'redux';
 import {
-  REGISTER, LOGIN, REMOVE_CLIENT, ORDER,
+  REGISTER, LOGIN, REMOVE_CLIENT, ORDER, NOT_ORDER,
 } from '../actions';
 
 const LOGIN_STATE = {
@@ -20,6 +20,17 @@ const reducerLogin = (state = LOGIN_STATE, action) => {
 };
 
 const REGISTERED = [];
+let REGISTERED_PREVIOUS = [];
+
+const orderName = (state) => {
+  REGISTERED_PREVIOUS = [...state];
+  return state
+    .sort((a, b) => {
+      const nameA = a.name.toLowerCase();
+      const nameB = b.name.toLowerCase();
+      return nameA > nameB ? 1 : nameB > nameA ? -1 : 0;
+    });
+};
 
 const reducerRegister = (state = REGISTERED, action) => {
   switch (action?.type) {
@@ -28,12 +39,9 @@ const reducerRegister = (state = REGISTERED, action) => {
     case REMOVE_CLIENT:
       return state.filter((client) => client.email !== action.client);
     case ORDER:
-      return state
-        .sort((a, b) => {
-          const nameA = a.name.toLowerCase();
-          const nameB = b.name.toLowerCase();
-          return nameA > nameB ? 1 : nameB > nameA ? -1 : 0;
-        });
+      return orderName(state);
+    case NOT_ORDER:
+      return REGISTERED_PREVIOUS;
     default:
       return state;
   }
