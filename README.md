@@ -114,11 +114,11 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 15-3: _Usando o Redux no React - Prática_
 - [x] 15-4: _Usando o Redux no React - Actions Assíncronas_
 - [x] 15-5: _Testes em React-Redux_
-- [ ] 15-6: _[Projeto - Trybe Wallet]()_
+- [x] 15-6: _[Projeto - Trybe Wallet]()_
 
 ##### Bloco 16: Projeto Jogo de Trivia
 
-- [ ] 16-1: _[Projeto - Jogo de Trivia]()_
+- [x] 16-1: _[Projeto - Jogo de Trivia]()_
 
 ##### Bloco 17: Context API e React Hooks
 
