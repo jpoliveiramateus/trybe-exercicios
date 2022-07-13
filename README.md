@@ -81,31 +81,31 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 - [x] 10-1: _'Hello, world!' no React!_
 - [x] 10-2: _Componentes React_
-- [x] 10-3: _[Projeto - Sistema Solar]()_
+- [x] 10-3: _Projeto - Sistema Solar_
 
 ##### Bloco 11: Componentes com Estado, Eventos e Formulários com React
 
 - [x] 11-1: _Componentes com estado e eventos_
 - [x] 11-2: _Formulários no React_
-- [x] 11-3: _[Projeto - Tryunfo]()_
+- [x] 11-3: _Projeto - Tryunfo_
 
 ##### Bloco 12: Ciclo de Vida de Componentes e React Router
 
 - [x] 12-1: _Ciclo de vida de componentes_
 - [x] 12-2: _React Router_
-- [x] 12-3: _[Projeto - TrybeTunes]()_
+- [x] 12-3: _Projeto - TrybeTunes_
 
 ##### Bloco 13: Metodologias Ágeis
 
 - [x] 13-1: _Metodologias Ágeis_
-- [x] 13-2: _[Projeto - Frontend Online Store]()_
+- [x] 13-2: _Projeto - Frontend Online Store_
 
 ##### Bloco 14: Testes automatizados com React Testing Library
 
 - [x] 14-1: _RTL - Primeiros passos_
 - [x] 14-2: _RTL - Mocks e Inputs_
 - [x] 14-3: _RTL - Testando React Router_
-- [x] 14-4: _[Projeto - Testes em React]()_
+- [x] 14-4: _Projeto - Testes em React_
 
 ##### Bloco 15: Gerenciamento de estado com Redux
 
@@ -114,18 +114,18 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 15-3: _Usando o Redux no React - Prática_
 - [x] 15-4: _Usando o Redux no React - Actions Assíncronas_
 - [x] 15-5: _Testes em React-Redux_
-- [x] 15-6: _[Projeto - Trybe Wallet]()_
+- [x] 15-6: _[Projeto - Trybe Wallet](https://trybe-wallet-bay.vercel.app/)_
 
 ##### Bloco 16: Projeto Jogo de Trivia
 
-- [x] 16-1: _[Projeto - Jogo de Trivia]()_
+- [x] 16-1: _[Projeto - Jogo de Trivia](https://show-do-milhao-gilt.vercel.app/)_
 
 ##### Bloco 17: Context API e React Hooks
 
 - [x] 17-1: _Context API do React_
 - [x] 17-2: _React Hooks - useState e useContext_
 - [x] 17-3: _React Hooks - useEffect e Hooks customizados_
-- [x] 17-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+- [x] 17-4: _Projeto - StarWars Datatable com Context API e Hooks_
 
 ##### Bloco 18: Projeto App de Receitas
 
