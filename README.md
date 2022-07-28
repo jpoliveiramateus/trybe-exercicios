@@ -133,7 +133,14 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
-##### Bloco 20: Introdução - Bancos de dados relacionais
+##### Bloco 19: Docker - Utilizando Containers
+
+- [ ] 19-1: _Utilizando Containers - Docker_
+- [ ] 19-2: _Manipulando Imagens no Docker_
+- [ ] 19-3: _Orquestrando Containers com Docker Compose_
+- [ ] 19-4: _[Projeto - Docker Todo-List]()_
+
+##### Bloco 20: Introdução à SQL
 
 - [ ] 20-1: _Banco de dados SQL_
 - [ ] 20-2: _Encontrando dados em um banco de dados_
@@ -141,25 +148,21 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [ ] 20-4: _Manipulando tabelas_
 - [ ] 20-5: _[Projeto - All For One]()_
 
-##### Bloco 21: Bancos de dados relacionais
+##### Bloco 21: Funções SQL, JOINs e Normalização
 
 - [ ] 21-1: _Funções mais usadas no SQL_
-- [ ] 21-2: _Descomplicando JOINs e UNIONs_
-- [ ] 21-3: _Stored Routines & Subqueries_
-- [ ] 21-4: _[Projeto - Vocabulary Booster]()_
+- [ ] 21-2: _Descomplicando JOINs_
+- [ ] 21-3: _Transformando ideias em um modelo de banco de dados_
+- [ ] 21-4: _[Projeto - One For All]()_
 
-##### Bloco 22: Bancos de dados relacionais
+##### Bloco 22: Introdução ao desenvolvimento Web com Node.js
 
-- [ ] 22-1: _Transformando ideias em um modelo de banco de dados_
-- [ ] 22-2: _Normalização, Formas Normais e Dumps_
-- [ ] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [ ] 22-3: _[Projeto - One For All]()_
-
-##### Bloco 23: Introdução - NoSQL
-
-- [ ] 23-1: _MongoDB - Introdução_
-- [ ] 23-2: _Filter Operators_
-- [ ] 23-3: _[Projeto - Data Flights]()_
+- [ ] 22-1: _Node.js - Um motor JavaScript_
+- [ ] 22-2: _Node.js - Fluxo Assíncrono_
+- [ ] 22-3: _Mocha, Chai e Sinon - Testes de Back-end com Node.js_
+- [ ] 22-4: _Express - HTTP com Node.js_
+- [ ] 22-5: _Express - Middlewares_
+- [ ] 22-6: _[Projeto - Talker Manager]()_
 
 ##### Bloco 24: Updates
 
