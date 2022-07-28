@@ -75,7 +75,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 9-3: _Jest - Testes Assíncronos_
 - [x] 9-4: _[Projeto - Carrinho de Compras](https://jpoliveiramateus.github.io/trybe-projetos/Shopping-Cart/)_
 
-## Desenvolvimento Front-end :hourglass_flowing_sand:
+## Desenvolvimento Front-end :white_check_mark:
 
 ##### Bloco 10: Introdução à React
 
