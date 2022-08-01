@@ -1,0 +1,8 @@
+version: '3'
+services:
+  trybe:
+    build: .
+    ports:
+      - 4545:80
+    volumes:
+      - ./:/usr/local/apache2/htdocs
