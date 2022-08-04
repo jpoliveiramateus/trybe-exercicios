@@ -138,7 +138,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 19-1: _Utilizando Containers - Docker_
 - [x] 19-2: _Manipulando Imagens no Docker_
 - [x] 19-3: _Orquestrando Containers com Docker Compose_
-- [ ] 19-4: _[Projeto - Docker Todo-List]()_
+- [x] 19-4: _Projeto - Docker Todo-List_
 
 ##### Bloco 20: Introdução à SQL
 
