@@ -1,0 +1,23 @@
+1.
+SELECT piece, price FROM Provides
+WHERE provider = 'RBT';
+
+2.
+SELECT piece, price FROM Provides
+ORDER BY price DESC
+LIMIT 5;
+
+3.
+SELECT DISTINCT provider, price FROM Provides
+ORDER BY price DESC
+LIMIT 4
+OFFSET 2;
+
+4.
+SELECT * FROM Provides
+WHERE provider = 'HAL'
+ORDER BY price DESC;
+
+5.
+SELECT COUNT(provider) FROM Provides
+WHERE piece = 1;
