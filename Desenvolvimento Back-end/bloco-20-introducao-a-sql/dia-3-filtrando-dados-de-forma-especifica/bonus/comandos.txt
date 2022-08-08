@@ -1,0 +1,38 @@
+1.
+USE Scientists;
+SELECT * FROM Scientists
+WHERE name LIKE "%e%";
+2.
+USE Scientists;
+SELECT name FROM Projects
+WHERE code LIKE "A%" ORDER BY name;
+
+3.
+USE Scientists;
+SELECT code, name FROM Projects
+WHERE code LIKE "%3%" ORDER BY name;
+
+4.
+USE Scientists;
+SELECT scientist FROM AssignedTo
+WHERE project IN('AeH3', 'Ast3', 'Che1');
+
+5.
+USE Scientists;
+SELECT * FROM Projects
+WHERE hours > 500;
+
+6.
+USE Scientists;
+SELECT * FROM Projects WHERE hours > 250 AND hours < 800;
+
+7.
+USE Scientists;
+SELECT code, name FROM Projects
+WHERE name NOT LIKE 'A%';
+
+8.
+USE Scientists;
+SELECT name FROM Projects
+WHERE code LIKE '%H%';
+
