@@ -153,7 +153,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 21-1: _Funções mais usadas no SQL_
 - [x] 21-2: _Descomplicando JOINs_
 - [x] 21-3: _Transformando ideias em um modelo de banco de dados_
-- [ ] 21-4: _[Projeto - One For All]()_
+- [x] 21-4: _[Projeto - One For All](https://github.com/jpoliveiramateus/one-for-all)_
 
 ##### Bloco 22: Introdução ao desenvolvimento Web com Node.js
 
