@@ -93,7 +93,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 - [x] 12-1: _Ciclo de vida de componentes_
 - [x] 12-2: _React Router_
-- [x] 12-3: _Projeto - TrybeTunes_
+- [x] 12-3: _[Projeto - TrybeTunes](https://trybe-tunes-iota.vercel.app/)_
 
 ##### Bloco 13: Metodologias Ágeis
 
@@ -105,7 +105,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 14-1: _RTL - Primeiros passos_
 - [x] 14-2: _RTL - Mocks e Inputs_
 - [x] 14-3: _RTL - Testando React Router_
-- [x] 14-4: _Projeto - Testes em React_
+- [x] 14-4: _[Projeto - Testes em React](https://github.com/jpoliveiramateus/react-testing-library)_
 
 ##### Bloco 15: Gerenciamento de estado com Redux
 
