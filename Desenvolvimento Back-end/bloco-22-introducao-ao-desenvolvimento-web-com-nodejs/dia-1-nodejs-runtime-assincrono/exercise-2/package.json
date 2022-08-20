@@ -1,0 +1,15 @@
+{
+  "name": "exercise-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
