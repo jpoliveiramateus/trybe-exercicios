@@ -160,7 +160,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 22-1: _Node.js: Runtime Assíncrono_
 - [x] 22-2: _Node.js: API REST com Express_
 - [x] 22-3: _Node.js: Testes de Integração_
-- [ ] 22-4: _Express: Middlewares_
+- [x] 22-4: _Express: Middlewares_
 - [ ] 22-5: _Node.js: Express e Mysql_
 - [ ] 22-6: _[Projeto - Talker Manager]()_
 
