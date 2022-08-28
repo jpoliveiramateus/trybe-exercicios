@@ -162,7 +162,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 22-3: _Node.js: Testes de Integração_
 - [x] 22-4: _Express: Middlewares_
 - [x] 22-5: _Node.js: Express e Mysql_
-- [ ] 22-6: _[Projeto - Talker Manager]()_
+- [x] 22-6: _[Projeto - Talker Manager](https://github.com/jpoliveiramateus/talker-manager)_
 
 ##### Bloco 23: Node.js: Camada de Serviço e Arquiterura Rest e Restful
 
