@@ -167,8 +167,8 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 ##### Bloco 23: Node.js: Camada de Serviço e Arquiterura Rest e Restful
 
 - [x] 23-1: _Arquitetura de Software - Camada de Model_
-- [ ] 23-2: _Arquitetura de Software - Camada Service_
-- [ ] 23-3: _Arquitetura de Software - Camada Controller_
+- [x] 23-2: _Arquitetura de Software - Camada Service_
+- [x] 23-3: _Arquitetura de Software - Camada Controller_
 - [ ] 23-4: _[Projeto - Store Manager]()_
 
 ##### Bloco 25: Aggregation Framework **Atualizar
