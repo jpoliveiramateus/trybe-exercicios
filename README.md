@@ -169,15 +169,17 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 23-1: _Arquitetura de Software - Camada de Model_
 - [x] 23-2: _Arquitetura de Software - Camada Service_
 - [x] 23-3: _Arquitetura de Software - Camada Controller_
-- [ ] 23-4: _[Projeto - Store Manager]()_
+- [x] 23-4: _[Projeto - Store Manager](https://github.com/jpoliveiramateus/store-manager)_
 
-##### Bloco 25: Aggregation Framework **Atualizar
+##### Bloco 24: Node.js: ORM e Autenticação
 
-- [ ] 25-1: _Aggregation Framework - Part 1_
-- [ ] 25-2: _Aggregation Framework - Part 2_
-- [ ] 25-3: _[Projeto - Aggregations]()_
+- [ ] 24-1: _ORM - Interface da aplicação com o banco de dados_
+- [ ] 24-2: _ORM - Associations 1:1 e 1:N_
+- [ ] 24-3: _ORM - ORM - Associations N:N e Transactions_
+- [ ] 24-4: _JWT - (JSON Web Token)_
+- [ ] 24-5: _[Projeto - API de Blogs]()_
 
-##### Bloco 26: Intro - NodeJS
+##### Bloco 26: Intro - NodeJS **Atualizar
 
 - [ ] 26-1: _NodeJS - Introdução_
 - [ ] 26-2: _NodeJS - Fluxo Assíncrono_
