@@ -8,18 +8,13 @@ const { testBook, booksMock } = require('./mocks/book.service.mock');
 
 describe('BookService', () => {
   describe('#getAll', () => {
-    const findAllStub = sinon.stub(Book, 'findAll');
-    let books;
+    afterEach(function() {
+      sinon.restore();
+    });
 
-    describe('quando não existe nenhum livro cadastrado', () => {
-      before(async () => {
-        findAllStub.resolves([]);
-        books = await BookService.getAll();
-      });
-  
-      after(() => {
-        findAllStub.reset();
-      });
+    describe('quando não existe nenhum livro cadastrado', async () => {
+      sinon.stub(Book, 'findAll').resolves([]);
+      let books = await BookService.getAll();
   
       it('called Book.findAll', () => {
         expect(Book.findAll.calledOnce).to.be.equals(true);
@@ -34,15 +29,9 @@ describe('BookService', () => {
       });
     });
 
-    describe('quando existem livros cadastrados', () => {
-      before(async () => {
-        findAllStub.resolves([testBook]);
-        books = await BookService.getAll();
-      });
-  
-      after(() => {
-        findAllStub.restore();
-      });
+    describe('quando existem livros cadastrados', async () => {
+      sinon.stub(Book, 'findAll').resolves([testBook]);
+      let books = await BookService.getAll();
   
       it('called Book.findAll', async () => {
         expect(Book.findAll.calledOnce).to.be.equals(true);
@@ -234,53 +223,43 @@ describe('BookService', () => {
       });
     });
   });
-
-  // describe('#getByAuthor', () => {
-  //   const findAllStub = sinon.stub(Book, 'findAll');
-  //   let books;
-
-  //   describe('quando existe pelo menos um livro com o author', () => {
-  //     const listBooksByAuthor = booksMock.filter((book) => book.author.includes('Izabela Wagner'));
-  //     before(async () => {
-  //       findAllStub.resolves(listBooksByAuthor);
-  //       books = await BookService.getByAuthor('Izabela Wagner');
-  //     });
   
-  //     after(() => {
-  //       findAllStub.reset();
-  //     });
+  describe('#getByAuthor', () => {
+    afterEach(function() {
+      sinon.restore();
+    });
 
-  //     it('called Book.getByAuthor', () => {
-  //       expect(Book.findAll.calledOnce).to.be.equals(true);
-  //     });
-  
-  //     it('a resposta é um array', () => {
-  //       expect(books).to.be.an('array');
-  //     });
-  
-  //     it('a resposta é um arry de objetos contendo os dados dos livros com o nome do Author', () => {
-  //       expect(books).to.deep.equal(listBooksByAuthor);
-  //     });
-  //   });
+    describe('quando existe pelo menos um livro com o author', async () => {
+      const listBooksByAuthor = booksMock.filter((book) => book.author.includes('Izabela Wagner'));
 
-  //   describe('quando não existe nenhum livro com o author', () => {
-  //     before(async () => {
-  //       findAllStub.resolves([]);
-  //       books = await BookService.getByAuthor('João Pedro');
-  //     });
-  
-  //     after(() => {
-  //       findAllStub.reset();
-  //     });
+      sinon.stub(Book, 'findAll').resolves(listBooksByAuthor);
+      let books = await BookService.getByAuthor('Izabela Wagner');
 
-  //     it('called Book.getByAuthor', () => {
-  //       expect(Book.findAll.calledOnce).to.be.equals(true);
-  //     });
+      it('called Book.getByAuthor', () => {
+        expect(Book.findAll.calledOnce).to.be.equals(true);
+      });
   
-  //     it('a resposta é um array vazio', () => {
-  //       expect(books).to.be.an('array');
-  //       expect(books).to.be.empty;
-  //     });
-  //   });
-  // });
+      it('a resposta é um array', () => {
+        expect(books).to.be.an('array');
+      });
+  
+      it('a resposta é um arry de objetos contendo os dados dos livros com o nome do Author', () => {
+        expect(books).to.deep.equal(listBooksByAuthor);
+      });
+    });
+
+    describe('quando não existe nenhum livro com o author', async () => {
+      sinon.stub(Book, 'findAll').resolves([]);
+      let books = await BookService.getByAuthor('João Pedro');
+
+      it('called Book.getByAuthor', () => {
+        expect(Book.findAll.calledOnce).to.be.equals(true);
+      });
+  
+      it('a resposta é um array vazio', () => {
+        expect(books).to.be.an('array');
+        expect(books).to.be.empty;
+      });
+    });
+  });
 })
