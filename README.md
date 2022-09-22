@@ -176,7 +176,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 24-1: _ORM - Interface da aplicação com o banco de dados_
 - [x] 24-2: _ORM - Associations 1:1 e 1:N_
 - [x] 24-3: _ORM - ORM - Associations N:N e Transactions_
-- [ ] 24-4: _JWT - (JSON Web Token)_
+- [x] 24-4: _JWT - (JSON Web Token)_
 - [ ] 24-5: _[Projeto - API de Blogs]()_
 
 ##### Bloco 26: Intro - NodeJS **Atualizar

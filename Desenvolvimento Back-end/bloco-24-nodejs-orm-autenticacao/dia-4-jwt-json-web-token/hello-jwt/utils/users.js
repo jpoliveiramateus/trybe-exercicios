@@ -20,11 +20,15 @@ const readUserFile = async () => {
   }
 };
 
-// const findUser = async (userName) => {
-//   const users = await readUserFile();
-//   const user = users.find(us => us.username === user);
-// };
+const findUser = async (userName) => {
+  const users = await readUserFile();
+  const user = users.find(({ username }) => username === userName);
+  if (!user) {
+    return false;
+  }
+  return true;
+};
 
 module.exports = {
-  // findUser,
+  findUser,
 };
