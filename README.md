@@ -177,16 +177,15 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 24-2: _ORM - Associations 1:1 e 1:N_
 - [x] 24-3: _ORM - ORM - Associations N:N e Transactions_
 - [x] 24-4: _JWT - (JSON Web Token)_
-- [ ] 24-5: _[Projeto - API de Blogs]()_
+- [x] 24-5: _[Projeto - API de Blogs](https://github.com/jpoliveiramateus/blogs-api)_
 
-##### Bloco 26: Intro - NodeJS **Atualizar
+##### Bloco 25: Deployment
 
-- [ ] 26-1: _NodeJS - Introdução_
-- [ ] 26-2: _NodeJS - Fluxo Assíncrono_
-- [ ] 26-3: _NodeJS - Arquitetura_
-- [ ] 26-4: _[Projeto - A CLI of Ice and Fire]()_
+- [ ] 25-1: _Infraestrutura - Deploy com Heroku_
+- [ ] 25-2: _Deploy Docker & Heroku_
+- [ ] 25-3: _[Projeto - Stranger Things]()_
 
-##### Bloco 27: NodeJS
+##### Bloco 27: NodeJS **Atualizar
 
 - [ ] 27-1: _Express: HTTP com Node.js_
 - [ ] 27-2: _Arquitetura de Software - Introdução ao MVC_
