@@ -182,7 +182,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 ##### Bloco 25: Deployment
 
 - [x] 25-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 25-2: _Deploy Docker & Heroku_
+- [x] 25-2: _Deploy Docker & Heroku_
 - [ ] 25-3: _[Projeto - Stranger Things]()_
 
 ##### Bloco 27: NodeJS **Atualizar
