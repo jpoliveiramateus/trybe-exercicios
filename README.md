@@ -185,13 +185,14 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 25-2: _Deploy Docker & Heroku_
 - [ ] 25-3: _[Projeto - Stranger Things]()_
 
-##### Bloco 27: NodeJS **Atualizar
+##### Bloco 26: Introdução a TypeScript 
 
-- [ ] 27-1: _Express: HTTP com Node.js_
-- [ ] 27-2: _Arquitetura de Software - Introdução ao MVC_
-- [ ] 27-3: _[Projeto - Cookmaster]()_
+- [ ] 26-1: _Introdução ao TypeScript_
+- [ ] 26-2: _Tipagem Estática e Generics_
+- [ ] 26-3: _Express com TypeScript_
+- [ ] 26-4: _[Projeto - Trybesmith]()_
 
-##### Bloco 28: NodeJS
+##### Bloco 28: **Atualizar
 
 - [ ] 28-1: _Arquitetura de Software - Camada de Serviço_
 - [ ] 28-2: _Arquitetura web - Rest e Restful_
