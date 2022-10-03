@@ -183,7 +183,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 - [x] 25-1: _Infraestrutura - Deploy com Heroku_
 - [x] 25-2: _Deploy Docker & Heroku_
-- [ ] 25-3: _[Projeto - Stranger Things]()_
+- [x] 25-3: _Projeto - Stranger Things_
 
 ##### Bloco 26: Introdução a TypeScript 
 
