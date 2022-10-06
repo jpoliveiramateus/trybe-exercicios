@@ -1,5 +1,8 @@
 import UserModel from '../models/UserModel';
+
 import User from '../interfaces';
+import IToken from '../interfaces/IToken';
+
 import { NotFoundError } from 'restify-errors';
 
 import jwt from 'jsonwebtoken';
@@ -49,8 +52,24 @@ class UserService {
 		return userUpdated;
 	}
 
-	public async remove(id: number): Promise<void> {
-		await this.model.remove(id);
+	public async remove(id: number, token: string): Promise<void> {
+		const userFound = await this.model.getById(id);
+
+		if (!userFound) {
+			throw new NotFoundError('NotFoundError');
+		}
+
+		try {
+			const payload = jwt.verify(token, JWT_SECRET) as IToken;
+
+			if (payload.id !== id) {
+				throw new NotFoundError('NotFoundError');
+			}
+
+			await this.model.remove(id);
+		} catch (err) {
+			throw new NotFoundError('Token inválido ou expirado');
+		}
 	}
 }
 

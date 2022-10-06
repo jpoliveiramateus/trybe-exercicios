@@ -3,13 +3,11 @@ import UserController from '../controllers/UserController';
 
 import middleware from '../middlewares/user.middleware';
 
-import auth from '../middlewares/auth.middleware';
-
 const router = Router();
 
 const userController = new UserController();
 
-router.delete('/:id', auth, userController.remove);
+router.delete('/:id', userController.remove);
 
 router.put('/:id', userController.update);
 

@@ -1,5 +1,4 @@
 import { Request, Response } from 'express';
-import { NotFoundError } from 'restify-errors';
 import UserService from '../services/UserService';
 
 class UserController {
@@ -42,18 +41,13 @@ class UserController {
 
 	public remove = async (req: Request, res: Response) => {
 		const id = Number(req.params.id);
+		const { authorization: token } = req.headers;
 
-		const userFound = await this.service.getById(id);
-
-		if (!userFound) {
-			throw new NotFoundError('NotFoundError');
+		if (!token) {
+			return res.status(401).json({ message: 'Token not found' });
 		}
 
-		if (id !== req.user.id) {
-			return res.status(401).json({ message: 'Without permission!' });
-		}
-
-		await this.service.remove(id);
+		await this.service.remove(id, token);
 
 		res.status(200).json({ message: 'User deleted successfully' });
 	};
