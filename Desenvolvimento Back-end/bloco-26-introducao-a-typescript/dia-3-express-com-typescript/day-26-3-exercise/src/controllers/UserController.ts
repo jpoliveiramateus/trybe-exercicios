@@ -50,7 +50,7 @@ class UserController {
 		}
 
 		if (id !== req.user.id) {
-			return res.status(401).json({ message: 'Usuário não permitido!' });
+			return res.status(401).json({ message: 'Without permission!' });
 		}
 
 		await this.service.remove(id);
