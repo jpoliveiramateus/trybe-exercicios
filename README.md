@@ -190,7 +190,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 26-1: _Introdução ao TypeScript_
 - [x] 26-2: _Tipagem Estática e Generics_
 - [x] 26-3: _Express com TypeScript_
-- [ ] 26-4: _[Projeto - Trybesmith]()_
+- [x] 26-4: _[Projeto - Trybesmith](https://github.com/jpoliveiramateus/trybesmith)_
 
 ##### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
 
