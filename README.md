@@ -192,13 +192,16 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 26-3: _Express com TypeScript_
 - [ ] 26-4: _[Projeto - Trybesmith]()_
 
+##### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
+
+- [ ] 27-1: _Introdução à Orientação a Objetos_
+- [ ] 27-2: _Herança e Interfaces_
+- [ ] 27-3: _Polimorfismo_
+- [ ] 27-4: _SOLID - Introdução e Princípios S, O e D_
+- [ ] 27-5: _SOLID - Princípios L e I_
+- [ ] 27-6: _[Projeto - Trybers and Dragons]()_
+
 ##### Bloco 28: **Atualizar
-
-- [ ] 28-1: _Arquitetura de Software - Camada de Serviço_
-- [ ] 28-2: _Arquitetura web - Rest e Restful_
-- [ ] 28-3: _[Projeto - Store Manager]()_
-
-##### Bloco 29: NodeJS
 
 - [ ] 29-1: _NodeJS - JWT - (JSON Web Token)_
 - [ ] 29-2: _NodeJS - Upload de arquivos com Multer_
