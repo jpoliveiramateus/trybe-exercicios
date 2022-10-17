@@ -198,7 +198,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 27-2: _Herança e Interfaces_
 - [x] 27-3: _Polimorfismo_
 - [x] 27-4: _SOLID - Introdução e Princípios S, O e D_
-- [ ] 27-5: _SOLID - Princípios L e I_
+- [x] 27-5: _SOLID - Princípios L e I_
 - [ ] 27-6: _[Projeto - Trybers and Dragons]()_
 
 ##### Bloco 28: **Atualizar
