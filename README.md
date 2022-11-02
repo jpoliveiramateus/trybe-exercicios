@@ -238,7 +238,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [ ] 33-3: _Testes_
 - [ ] 33-4: _[Projeto - Job Insights]()_
 
-##### Bloco 34: Padrôes de Projeto
+##### Bloco 34: Padrões de Projeto
 
 - [ ] 34-1: _P.O.O em Python_
 - [ ] 34-2: _Padrões - Iterator, Adapter, Strategy_
