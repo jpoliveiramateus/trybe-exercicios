@@ -199,57 +199,50 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 27-3: _Polimorfismo_
 - [x] 27-4: _SOLID - Introdução e Princípios S, O e D_
 - [x] 27-5: _SOLID - Princípios L e I_
-- [ ] 27-6: _[Projeto - Trybers and Dragons]()_
+- [x] 27-6: _[Projeto - Trybers and Dragons](https://github.com/jpoliveiramateus/trybers-and-dragons)_
 
-##### Bloco 28: **Atualizar
+##### Bloco 28: Projeto
 
-- [ ] 29-1: _NodeJS - JWT - (JSON Web Token)_
-- [ ] 29-2: _NodeJS - Upload de arquivos com Multer_
-- [ ] 29-3: _[Projeto - Cookmaster V2]()_
+- [x] 28-1: _[Projeto - TFC - Trybe Futebol Clube](https://github.com/jpoliveiramateus/trybe-futebol-clube)_
 
-##### Bloco 30: Introdução - Deploy
+##### Bloco 29: Introdução ao MongoDB
 
-- [ ] 30-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 30-2: _Deploy - Gerenciadores de Processos_
-- [ ] 30-3: _[Projeto - Stranger Things]()_
+- [ ] 29-1: _MongoDB - Introdução_
+- [ ] 29-2: _Filter Operators_
+- [ ] 29-3: _Operadores de consulta_
+- [ ] 29-4: _Updates Simples_
+- [ ] 29-5: _Updates Complexos - Arrays_
+- [ ] 29-6: _[Projeto - Commerce]()_
+
+##### Bloco 30: MongoDB com Node.js e POO
+
+- [ ] 30-1: _Mongoose e arquitetura MSC (Camada Model)_
+- [ ] 30-2: _Mongoose e arquitetura MSC (Camada Service e Controller)_
+- [ ] 30-3: _[Projeto - Car Shop]()_
 
 ##### Bloco 31: Projeto
 
-- [ ] 31-1: _[Projeto - Trybeer]()_
+- [ ] 31-1: _[Projeto - App de Delivery]()_
 
-##### Bloco 32: Arquitetura de Software
+##### Bloco 32: MasterClass - VPS, CI/CD
 
-- [ ] 32-1: _Arquitetura - Princípios SOLID_
-- [ ] 32-2: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 32-3: _Arquitetura de Software - DDD_
-- [ ] 32-4: _Boas práticas na escrita de testes_
-- [ ] 32-3: _[Projeto - API de Blogs]()_
-
-##### Bloco 33: Sockets
-
-- [ ] 30-1: _Sockets - TCP/UDP & NET_
-- [ ] 30-2: _Sockets - Socket.io_
-- [ ] 30-3: _[Projeto - Webchat]()_
-
-##### Bloco 34: Projeto
-
-- [ ] 34-1: _[Projeto - Trybeer V2]()_
+- [ ] 32-1: _VPS_
+- [ ] 32-2: _Conteúdos diversos_
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
-##### Bloco 35: Introdução - Ciência da Computação
+##### Bloco 33: Introdução à Python
 
-- [ ] 35-1: _Arquitetura de Computadores_
-- [ ] 35-2: _Arquitetura de redes_
-- [ ] 35-3: _Redes de computadores, ferramentas e segurança_
-- [ ] 35-4: _[Projeto - Explorando os protocolos]()_
+- [ ] 33-1: _Aprendendo Python_
+- [ ] 33-2: _Entrada e Saída de Dados_
+- [ ] 33-3: _Testes_
+- [ ] 33-4: _[Projeto - Job Insights]()_
 
-##### Bloco 36: Python
+##### Bloco 34: Padrôes de Projeto
 
-- [ ] 35-1: _Aprendendo Python_
-- [ ] 35-2: _Testes e Exceções_
-- [ ] 35-3: _Entrada e Saída de dados_
-- [ ] 36-4: _Entrada e Saída de dados_
-- [ ] 35-5: _[Projeto - Tech news]()_
+- [ ] 34-1: _P.O.O em Python_
+- [ ] 34-2: _Padrões - Iterator, Adapter, Strategy_
+- [ ] 34-3: _Padrões - Decorator, Observer, Factory_
+- [ ] 34-4: _[Projeto - Relatórios de Estoque]()_
 
 # [...]
