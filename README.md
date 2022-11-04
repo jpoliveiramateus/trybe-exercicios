@@ -208,7 +208,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 ##### Bloco 29: Introdução ao MongoDB
 
 - [x] 29-1: _MongoDB - Introdução_
-- [ ] 29-2: _Filter Operators_
+- [x] 29-2: _Filter Operators_
 - [ ] 29-3: _Operadores de consulta_
 - [ ] 29-4: _Updates Simples_
 - [ ] 29-5: _Updates Complexos - Arrays_
