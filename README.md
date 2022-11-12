@@ -214,10 +214,10 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 29-5: _Updates Complexos - Arrays_
 - [x] 29-6: _[Projeto - Commerce](https://github.com/jpoliveiramateus/mongodb-commerce)_
 
-##### Bloco 30: MongoDB com Node.js e POO
+##### Bloco 30: APIs OO e NoSQL
 
-- [ ] 30-1: _Mongoose e arquitetura MSC (Camada Model)_
-- [ ] 30-2: _Mongoose e arquitetura MSC (Camada Service e Controller)_
+- [ ] 30-1: _APIs orientadas a objetos e NoSQL: POO e ODMs_
+- [ ] 30-2: _APIs orientadas a objetos e NoSQL: Herança e Abstração_
 - [ ] 30-3: _[Projeto - Car Shop]()_
 
 ##### Bloco 31: Projeto
