@@ -216,8 +216,8 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 ##### Bloco 30: APIs OO e NoSQL
 
-- [ ] 30-1: _APIs orientadas a objetos e NoSQL: POO e ODMs_
-- [ ] 30-2: _APIs orientadas a objetos e NoSQL: Herança e Abstração_
+- [x] 30-1: _APIs orientadas a objetos e NoSQL: POO e ODMs_
+- [x] 30-2: _APIs orientadas a objetos e NoSQL: Herança e Abstração_
 - [ ] 30-3: _[Projeto - Car Shop]()_
 
 ##### Bloco 31: Projeto
