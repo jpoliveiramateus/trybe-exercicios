@@ -218,7 +218,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 - [x] 30-1: _APIs orientadas a objetos e NoSQL: POO e ODMs_
 - [x] 30-2: _APIs orientadas a objetos e NoSQL: Herança e Abstração_
-- [ ] 30-3: _[Projeto - Car Shop]()_
+- [x] 30-3: _[Projeto - Car Shop](https://github.com/jpoliveiramateus/car-shop)_
 
 ##### Bloco 31: Projeto
 
